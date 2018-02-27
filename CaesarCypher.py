@@ -1,7 +1,4 @@
-#Ceasar cypher:
 
-  #input the key in the first line(any natural    number other than the multiples of 26)
-  #input a word or a sentence to encrypt on the next line
   
 def isfloat(value):
     try:
