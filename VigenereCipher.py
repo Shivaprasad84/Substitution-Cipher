@@ -5,7 +5,6 @@ word = ''
 print("Enter a keyword\n")
 key = input()
 key = key.upper()
-key = list(key)
 print("Enter a sentence\n")
 sentence = input()
 sentence = sentence.upper()
