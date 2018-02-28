@@ -17,7 +17,7 @@ for i in range(0, len(sentence)):
 # print(word)
 for s in range(0, len(sentence)):
     if sentence[s] not in alpha:
-        beta += " "
+        beta += sentence[s]
     else:
         beta += alpha[(alpha.index(sentence[s]) - alpha.index(word[s])) % 26]
 print(beta)
